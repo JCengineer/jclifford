@@ -35,11 +35,10 @@
 				<!--menu-->
 				<?php @include('menu.php'); ?>
 <!------------------------------------------------>
-				<h3>Not this time....<h3>
 <?php } else { ?>
 
 				<!--content-->
-				<h1>This is SOFTWARE!</h1>
+				<h1>This is EVENT!</h1>
 <?php } ?>
 
 <!------------------------------------------------>

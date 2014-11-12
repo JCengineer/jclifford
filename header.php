@@ -8,7 +8,7 @@
 		rapid prototyping and building/fixing.</h3>
 		<br>
 		<a href="tour.php" class="callToAction">Take a tour</a>
-		<a href="tour.php" class="callToAction secondary">Send me a mail</a>
+		<a href="contact.php" class="callToAction secondary">Send me a mail</a>
 
 	</div>
 	<img src="media/jc-profile.png" />

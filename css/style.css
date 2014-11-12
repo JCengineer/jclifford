@@ -1,9 +1,8 @@
 * {font-family: 'Exo 2', sans-serif;font-weight: 200;}
 .sketchFont {font-family: 'Fredericka the Great', cursive;}
 body {background-color: #444;color:#eee;background-color:#000;background-size:100% auto;background-repeat: no-repeat;margin:0;}
-.main {min-height:100%;}
-h1 {font-weight: bold;}
-.clearfix {clear:both;overflow: hidden;}
+
+
 header {width: 90%; margin: 25px 5%;padding: 15px 0 50px;text-align: left;color:white;
 		background:rgba(13, 5, 21, 0.6) url("../media/grill.png") no-repeat center top;background-size:100% auto;
 		border-radius: 10px;border:5px solid #111;}
@@ -11,14 +10,18 @@ header div {margin-left: 40px; float:left;z-index:2;width:calc(100% - 300px);}
 header div h2 {font-weight: 400;}
 header img{padding-right: 15px; float:right; width:200px;position: relative;margin-top:-40px;bottom:-70px;}
 
+h1 {font-weight: bold;}
+.clearfix {clear:both;overflow: hidden;}
 .callToAction {border-radius: 15px;background-color: #2176D8;padding:15px;margin: 15px;text-decoration:none;color:white;}
 .callToAction.secondary {border-radius: 10px;background-color: #275D9B;padding:10px;margin: 15px;text-decoration:none;color:white;}
+.highlight {background-color:rgba(255,255,255,.6)!important;color:#000!important;}
 
 
-
+.main {min-height:100%;}
 .menu {margin-left:5%;padding:5px;float:left;width:15%;}
 	.menu h3{margin:0px;padding:5px;}
 	.menu a{text-decoration: none;}
+	.menu a .highlight{text-decoration: none;cursor:default;}
 .panel {background-color:rgba(0,0,0,.4);color:white;border:3px solid gray;width: 100%; margin:0 25px 15px 0;}
 	.panel.pL {border-right:none;border-bottom:none;border-bottom-right-radius:25px;border-bottom-left-radius:10px;border-top-left-radius:10px;}
 	.panel.pC {border-left:none;border-right:none;}
@@ -36,8 +39,30 @@ footer {height:60px;background-color:#222;padding:10px;}
 	footer .links{float:left;}
 	footer .links a{display:inline-block;color:white;text-decoration: none;margin:0px 25px;}
 	footer .buttons{float:right;padding:10px;}
+
+
+
+
 @media only screen and (max-width: 1050px) {
 	.panel.pL{width:70%;margin:25px 20% 25px 10%;}
 	.panel.pR{width:70%;margin:25px 10% 25px 20%;}
 	.panel.pC{width:90%;margin:25px 5% 25px;}
+}
+@media only screen and (max-width: 1050px) {
+	header {}
+}
+@media only screen and (max-width: 640px) {
+	body {background-position-y: 375px;}
+
+	header {width:100%;margin:0;}
+		header img {display: none;}
+		header div {width:90%;margin:0 5%;text-align: center;}
+		header div h2 {font-size:1.3em;}
+		header div h3 {font-size:1.1em;}
+
+	.menu {width: 90%;margin:0 5%;overflow:hidden;clear:both;}
+		.menu .panel {width:38%;float:left;margin:5px 5%;}
+			.menu .panel.pC {width:87%;text-align: center}
+
+	.content {width:90%;margin:10px 5%;}
 }
