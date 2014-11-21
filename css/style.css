@@ -1,6 +1,6 @@
 * {font-family: 'Exo 2', sans-serif;font-weight: 200;}
 .sketchFont {font-family: 'Fredericka the Great', cursive;}
-body {background-color: #444;color:#eee;background-color:#000;background-size:100% auto;background-repeat: no-repeat;margin:0;}
+body {color:#eee;background-color:#000;background-size:100% auto;background-repeat: no-repeat;margin:0;}
 
 
 header {width: 90%; margin: 25px 5%;padding: 15px 0 50px;text-align: left;color:white;
@@ -19,10 +19,10 @@ h1 {font-weight: bold;}
 
 .main {min-height:100%;}
 .menu {margin-left:5%;padding:5px;float:left;width:15%;}
-	.menu h3{margin:0px;padding:5px;}
+	.menu h3{margin:0px;padding:5px;font-size:1.5em;}
 	.menu a{text-decoration: none;}
 	.menu a .highlight{text-decoration: none;cursor:default;}
-.panel {background-color:rgba(0,0,0,.4);color:white;border:3px solid gray;width: 100%; margin:0 25px 15px 0;}
+.panel {background-color:rgba(0,0,0,.4);color:white;border:3px solid gray;width: 100%; margin:25px 0 25px 0;}
 	.panel.pL {border-right:none;border-bottom:none;border-bottom-right-radius:25px;border-bottom-left-radius:10px;border-top-left-radius:10px;}
 	.panel.pC {border-left:none;border-right:none;}
 
@@ -30,7 +30,13 @@ h1 {font-weight: bold;}
 
 .content {width: 70%;float:right;margin: 50px 5% 25px 1%;overflow: hidden; text-align: center;}
 	.content p{font-size: 1.3em;}
-.horizontalList {border:2px solid #333;border-radius: 20px;margin:25px 10%;width: 80%; text-align: center;}
+#gallery {clear:both;width:100%;height:150px;overflow-x:hidden; overflow-y:hidden; position:relative;}
+    #gallery #galleryscroller{position:relative;overflow-x:auto; overflow-y:hidden; white-space: nowrap;background-color: #000000;height:125%;position:relative;clear:both;}
+      #galleryscroller div{width:150px;height:150px;display:inline-block;position: relative;}
+      #galleryscroller span.category{-webkit-transform:rotate(-90deg);width:25px;top:-50px;display:inline-block;position: relative;border-left:3px solid gray;padding-left:5px;}
+span.gradient{ background: linear-gradient(to right, rgba(0,0,0,0) , black);width:100px;height:100%;float:right;z-index:5;position: absolute;top: 0px;right: 0px;}
+#twitterWidget {float:right;margin:25px 5% 0 0;}
+.horizontalList {border:2px solid #333;border-radius: 20px;margin:25px 5%;width: calc(90% - 350px); text-align: center;float:left;}
 	.horizontalList h3{margin-bottom:0;}
 	.horizontalList p{margin-top:0;}
 
@@ -44,25 +50,28 @@ footer {height:60px;background-color:#222;padding:10px;}
 
 
 @media only screen and (max-width: 1050px) {
-	.panel.pL{width:70%;margin:25px 20% 25px 10%;}
-	.panel.pR{width:70%;margin:25px 10% 25px 20%;}
+	.panel.pL{width:100%;}
 	.panel.pC{width:90%;margin:25px 5% 25px;}
 }
-@media only screen and (max-width: 1050px) {
-	header {}
+@media only screen and (max-width: 850px) {
+	
+	header {width:100%;margin:0;border-radius:0px;border-top:none;border-left:none;border-right:none;}
+		header img {display: none;}
+		header div {width:90%;margin:0 5%;text-align: center;}
+
+	.menu {width: 95%;margin:10px 0 0 3%;overflow:hidden;clear:both;}
+		.menu .panel {width:15%;float:left;margin:5px 2%;}
+			.menu .panel.pC {width:93%;text-align: center;}
+				.panel.pC a:after{content:' James';}
+
+	.content {width:90%;margin:10px 5%;}
 }
 @media only screen and (max-width: 640px) {
 	body {background-position-y: 375px;}
-
-	header {width:100%;margin:0;}
-		header img {display: none;}
-		header div {width:90%;margin:0 5%;text-align: center;}
-		header div h2 {font-size:1.3em;}
-		header div h3 {font-size:1.1em;}
+	header div h2 {font-size:1.3em;}
+	header div h3 {font-size:1.1em;}
 
 	.menu {width: 90%;margin:0 5%;overflow:hidden;clear:both;}
 		.menu .panel {width:38%;float:left;margin:5px 5%;}
 			.menu .panel.pC {width:87%;text-align: center}
-
-	.content {width:90%;margin:10px 5%;}
 }
