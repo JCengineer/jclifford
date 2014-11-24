@@ -52,7 +52,7 @@ window.onload = function(){
 				
 				//animate the content into view
 				//debatable whether people like it or not...
-				//$('body').animate({scrollTop:$('#contentMain').offset().top-200}, 1000);
+				$('body').animate({scrollTop:$('#contentMain').offset().top-200}, 1000);
 				//animate the relevant gallery images into view, nice
 				if ($('span[data-forlink="'+href+'"]').length > 0){
 					var offsetY = ($('span[data-forlink="'+href+'"]').offset().left - $('#galleryscroller').children().first().offset().left);

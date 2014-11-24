@@ -1,28 +1,14 @@
 <?php
-	$fromAjax=false;
-	if (isset($_SERVER['HTTP_X_REQUESTED_WITH'])
-	    AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) === 'xmlhttprequest') {
-		$fromAjax = true;
-		//print_r($_SERVER);
-	}
+	
+	include('php/main.php');
+	//if ajax call, return the content, not the full page
+	//as it already exists on the page where the request came from
+	$fromAjax=isAjax($_SERVER);
+	
 ?>
 
-<?php if (!$fromAjax) { ?>
-<!------------------------------------------------>
-<!doctype html>
-<html lang="en">
-<?php include('head.php'); ?>
-<body>
-	<div class="main">
-		<!-- header -->
-		<?php include('header.php'); ?>
-		<div>
-			<div class="clearfix">
-				<!--menu-->
-				<?php @include('menu.php'); ?>
-				<div id="contentMain" class="content">
-<!------------------------------------------------>
-<?php } ?>
+<?php if (!$fromAjax) startPage(); ?>
+
 					<!-- content -->
 					Welcome to JClifford.ie. Here, I hope to showcase some of my skills and hopefully spark some interest in you.
 					I am based in Dublin, Ireland where I work with some fantastic clients to assist them develop their businesses.
@@ -42,17 +28,5 @@
 					<br><br>Thanks,<br>
 					James
 					<!-- end content -->
-<?php if (!$fromAjax) { ?>
-<!------------------------------------------------>
-				</div>
-			</div>
-			<!--summary-->
-			<?php include('summary.php'); ?>
-		</div>
-	</div>
-	<?php include('footer.php'); ?>
-</body>
-</html>
 
-<!------------------------------------------------>
-<?php } ?>
+<?php if (!$fromAjax) endPage(); ?>
