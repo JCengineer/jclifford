@@ -34,6 +34,7 @@ var tour = (function(){
 		//animate the reading
 		//
 		console.log('here');
+		alert("This tour isn't quite ready yet, sorry.");
 	};
 	var playPause = function(play){
 		//if pause (play==false)

@@ -8,20 +8,16 @@
 <?php if (!$fromAjax) startPage(); ?>
 
 <!-- content -->
-<!--thought/note-->
-<span class="note alignRight">
-	It's a rainy day here in Dublin as I struggle to come up with something to say here...<br>
-	"This is the part of the website that is a random collection of my previous handywork"<br>
-	or something like that..    My coffee is going cold now too. Feck..
-</span><br>
 These projects have been a labour of love in the moments I built them and they're like trophies to me.
-The reason that they are here is because, in my opinion, they should to be shared.
-The potential of somebody else using these designs is worth the effort, right?
-I hope someone else gets some use out of it, or even betters the design.
-Sometimes even an using an old technology (a saw and hammer) is the best way of creating new one!
-New projects, concepts and ideas are the driving force of technology.
+They are showcased here because I believe they should to be shared.
 <br><br>
-Have an idea for a project I could help with? Want something I've built before?<br>
+New projects, concepts and ideas are the driving force of technology.
+Sometimes even an using an old technology (a saw and hammer) is the best way of creating new one!
+I get great enjoyment from using the traditional tools to create something new each time.
+<br><br>
+Have an idea for a project I could help with?<br>
+Want something I've built before?<br>
+Have a better idea for a design?<br>
 No problem, send me a message and we'll talk.<br>
 <span class="note">
 	Of course, if you see anything you like to try yourself,<br>
