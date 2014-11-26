@@ -20,9 +20,9 @@
 					 			  href="media/gallery/visilitSales.jpg" title="VisiLit Virtual Venue - stakeholder viewing page, where events can be shared and sold"></div>
 			<!--andorra-->
 			<div style='background:url("media/gallery/andorrabb.jpg");background-size:cover;' id="headerPic3" class="image"  
-					 			  href="media/gallery/andorrabb.jpg" title="The website I built for my parent's guesthouse."></div>
+					 			  href="media/gallery/andorrabb.jpg" title="The website I built for my parents' guesthouse."></div>
 			<div style='background:url("media/gallery/andorrabbContent.jpg");background-size:cover;' id="headerPic3" class="image"  
-					 			  href="media/gallery/andorrabbContent.jpg" title="Design work respective of the type of business and look and feel required of the site."></div>
+					 			  href="media/gallery/andorrabbContent.jpg" title="Design elements that respect the type of business and look and feel required of the site."></div>
 			<div style='background:url("media/gallery/andorrabbMobile.jpg");background-size:cover;' id="headerPic3" class="image"  
 					 			  href="media/gallery/andorrabbMobile.jpg" title="I build all of my websites mobile ready from the beginning of the project."></div>
 			<!--CKING?-->
