@@ -11,7 +11,7 @@
 
 <!-- content -->
 Welcome to JClifford.ie. Here, I showcase some of my skills and the ways 
-in which I can help solve your technology and business problems.
+in which I can help overcome your technology and business hurdles.
 I am based in Dublin, Ireland where I work with some fantastic clients to assist them in developing their businesses.
 The products and services I help to develop are usually technology based,
 largely due to my degree in Computer and Electronic Engineering from Trinity College Dublin.

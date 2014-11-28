@@ -64,15 +64,15 @@
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 		</div>
 		<div class="horizontalList">
-			<h2><u>I build things for :</u></h2>
-			<h3>Header 1</h3>
-			<p>listitem | listitem | listitem | listitem</p>
-			<h3>Header 1</h3>
-			<p>listitem | listitem | listitem | listitem</p>
-			<h3>Header 1</h3>
-			<p>listitem | listitem | listitem | listitem</p>
-			<h3>Header 1</h3>
-			<p>listitem | listitem | listitem</p>
+			<h1>I work for:</h1>
+			<h3>Businesses</h3>
+			<p>start ups | small/medium enterprises | associations | groups</p>
+			<h3>Events</h3>
+			<p>agencies | bands | theatre companies | venues</p>
+			<h3>Leisure</h3>
+			<p>charities | hobby</p>
+			<!--h2>Previous Clients</h2>
+			<p>listitem | listitem | listitem | listitem</p-->
 		</div>
 	</div>
 </div>
