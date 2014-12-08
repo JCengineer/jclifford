@@ -32,7 +32,7 @@
 	Using WebSockets, we also allowed our users to communicate and work as a team in real time.
 	Any time someone made a change to the 3D event, the change happened on all team members' screens instantly.
 	<br><br>
-	This project entailed complex structures for users, teams, events, 3D and communication.
+	This project entailed complex structures for users, teams, events, 3D graphics and communication in one web page.
 	This was carried out by a team of developers over the duration of the project.
 	I was responsible for the management and direction of the technical development whilst juggling the business aspects also.
 	In the beginning and in the last six months or so of VisiLit's two year development, I was also the lead developer.
