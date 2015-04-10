@@ -54,12 +54,14 @@ function getContent(href){
 			
 			//animate the content into view
 			//debatable whether people like it or not...
-			$('body').animate({scrollTop:$('#contentMain').offset().top-200}, 1000);
+			$('body').animate({scrollTop:$('#contentMain').offset().top-200}, 1000, function(){
+				
 			//animate the relevant gallery images into view, nice
-			if ($('span[data-forlink="'+href+'"]').length > 0){
-				var offsetY = ($('span[data-forlink="'+href+'"]').offset().left - $('#galleryscroller').children().first().offset().left - 60);
+			if ($('div[data-forlink="'+href+'"]').length > 0){
+				var offsetY = ($('div[data-forlink="'+href+'"]').offset().left - $('#galleryscroller').children().first().offset().left - 60);
 				$('#galleryscroller').animate({scrollLeft:offsetY}, 1000);
 			}else $('#galleryscroller').animate({scrollLeft:0}, 1000);
+			});
 			
 		});
 
