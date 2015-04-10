@@ -35,7 +35,7 @@ h1 {font-weight: bold;}
 	.content .alignRight{text-align: right;}
 #gallery {clear:both;width:100%;height:150px;overflow-x:hidden; overflow-y:hidden; position:relative;border: 3px solid grey;border-left: none;border-right: none;border-radius: 50px;margin: 20px 0;}
     #gallery #galleryscroller{position:relative;overflow-x:auto; overflow-y:hidden; white-space: nowrap;background-color: #000000;height:125%;position:relative;clear:both;}
-      #galleryscroller div{width:150px;height:150px;display:inline-block;position: relative;cursor: -webkit-zoom-in; cursor: -moz-zoom-in;}
+      #galleryscroller div{width:150px;height:150px;display:inline-block;position: relative;cursor: -webkit-zoom-in; cursor: -moz-zoom-in;background-repeat:no-repeat;background-position:center center;}
       #galleryscroller span.category{-webkit-transform:rotate(-90deg);width:25px;top:-50px;display:inline-block;position: relative;border-left:3px solid gray;padding-left:5px;}
 	#gallery span.gradient{width:125px;height:100%;float:right;z-index:5;position: absolute;top: 0px;cursor:pointer;}
 		#gallery span.gradient:after{content: '+';position: relative;top: 55px;font-size: 2em;font-weight: 600;color: grey;}
