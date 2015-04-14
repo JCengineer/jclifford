@@ -29,7 +29,7 @@ h1 {font-weight: bold;}
 
 
 
-.content {width: 70%;float:right;margin: 28px 5% 25px 1%;overflow: hidden; text-align: center;}
+.content {width: 64%;padding:3%;float:right;margin: 28px 5% 25px 1%;overflow: hidden; text-align: center;background:rgba(0,0,0,.4);}
 	.content p{font-size: 1.3em;}
 	.content span.note{background:rgba(64,64,64,.3);margin:1% 0;padding:1% 5%;display: inline-block;width: 92%;font-size: .9em;}
 	.content .alignRight{text-align: right;}

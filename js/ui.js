@@ -25,7 +25,7 @@ $('a').click(function(e){
 	e.preventDefault();
 	var href = $(this).attr('href');
 	//if tour button, start tour
-	if (href == "tour.php") return tour.start( $('#gallery') );
+	if (href == "tour.php") return tour.start( {steps:[{target:'#gallery img:first',type:'image',animationTime:1000}]}, this);
 	//if already pressed, don't repeat
 	if ($(this).children().hasClass('highlight')) return false;
 	$('.menu .panel').removeClass('highlight');
@@ -36,8 +36,8 @@ $('a').click(function(e){
 
 });//a click end
 
-function getContent(href){
-
+function getContent(href, time){
+	if (!time) time = time;
 	//there's an option to do the opacity animation here and 
 	//have the content loading in parallel to improve performance
 	//more awkward if the request is unsuccessful so maybe later..
@@ -47,20 +47,20 @@ function getContent(href){
 
 		if (result=="") return false;
 					
-		$('#contentMain').animate({opacity:0},1000,function(){
+		$('#contentMain').animate({opacity:0},time,function(){
 			//set content to new html
 			$('#contentMain').html(result);
-			$('#contentMain').animate({opacity:1},1000);
+			$('#contentMain').animate({opacity:1},time);
 			
 			//animate the content into view
 			//debatable whether people like it or not...
-			$('body').animate({scrollTop:$('#contentMain').offset().top-200}, 1000, function(){
+			$('body').animate({scrollTop:$('#contentMain').offset().top-200}, time, function(){
 				
 			//animate the relevant gallery images into view, nice
 			if ($('div[data-forlink="'+href+'"]').length > 0){
 				var offsetY = ($('div[data-forlink="'+href+'"]').offset().left - $('#galleryscroller').children().first().offset().left - 60);
-				$('#galleryscroller').animate({scrollLeft:offsetY}, 1000);
-			}else $('#galleryscroller').animate({scrollLeft:0}, 1000);
+				$('#galleryscroller').animate({scrollLeft:offsetY}, time);
+			}else $('#galleryscroller').animate({scrollLeft:0}, time);
 			});
 			
 		});
