@@ -4,6 +4,12 @@ var hotButton = undefined, hotHistory = undefined;
 window.onload = function(){
 	//big concept image
 	document.body.style.backgroundImage="url('media/road-dark-gradient-black.jpg')";
+	
+	//for each image, load the images from predefined image tags
+	$('#galleryscroller div.image').each(function(i,el){
+		var $el = $(el);
+		$el.attr('style',$el.attr('image'));
+	});
 	//gallery fullscreen plugin
 	$('#galleryscroller').magnificPopup({
 		delegate: 'div',
@@ -70,7 +76,7 @@ function getContent(href, time){
 		var currHash = location.hash.length>0?location.hash.substring(1):'index.php';
 		if (!hotHistory) urlHistory.push( currHash );
 		
-		console.log(href, "gives",result, "history",urlHistory);
+		//console.log(href, "gives",result, "history",urlHistory);
 		
 		//change page url
 		//window.location.href = "#!"+href;
@@ -86,7 +92,7 @@ window.onhashchange = function(){
 	//don't repeat yourself
 	if (hotButton) { hotButton = undefined; hotHistory = undefined;return;}
 	
-	console.log(location.hash, urlHistory);
+	//console.log(location.hash, urlHistory);
 	if (location.hash.length > 0 && urlHistory.length > 0) {        
 
 		hotHistory = urlHistory.pop();

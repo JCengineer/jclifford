@@ -6,7 +6,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
 	<link href="lib/magnific-popup/mp.css" rel="stylesheet" type="text/css">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
-
+	<link rel="icon" type="image/png" href="media/favicon.ico">
 	<!-- javascript in footer.php -->
 
 	<!--google analytics-->

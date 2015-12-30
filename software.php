@@ -8,6 +8,9 @@
 <?php if (!$fromAjax) startPage(); ?>
 
 	<!-- content -->
+	I build interactive web apps.<br><br>
+
+
 	In college, I studied computer and electronic engineering.
 	We covered a variety of coding languages and coding techniques.
 	More importantly though, we were encouraged to think critically about what enables a computer to work.
@@ -42,12 +45,36 @@
 	<li>Pusher - a WebSockets framework for real-time communication</li>
 	<li>jQuery - a User Interface library for Javascript</li>
 	<li>Laravel - an <span class="hasTitle" title="Model-View-Controller Design Pattern">MVC</span> server framework for PHP.</li>
-	
+	<br><br>
+	CustomKing hired me to upgrade and maintain the T-Shirt Designer and website at <a href="customking.ie" target="_blank">customking.ie</a>.
+	The technology included:
+	<li>Raw PHP</li>
+	<li>Javascript</li>
+	<li>jQuery / FreeTrans</li>
+	<li>CSS</li>
+	<li>CentOS server administration and support</li>
+	<br><br>
+	GigStarter hired me to broaden the scope of their crowd funding platform for events and assist in event management at <a href="gigstarter.com" target="_blank">gigstarter.com</a>.
+	These included:
+	<li>FuelPHP - PHP framework</li>
+	<li>HTML5 / JavaScript</li>
+	<li>Bootstrap / CSS</li>
+	<li>Linux server administration on Amazon Web Services (AWS).</li>
+	<br><br>
+	Love&Robots hired me to develop their interactive and personalised 3D printed products at <a href="loveandrobots.com" target="_blank">loveandrobots.com</a>.
+	These included:
+	<li>FuelPHP - PHP framework</li>
+	<li>HTML5 / JavaScript</li>
+	<li>Bootstrap / CSS</li>
+	<li>Linux server administration on Amazon Web Services (AWS).</li>
+	<br><br>
+	Ps. This is a great example of what's happening in the developer hiring scene at the moment. Well worth a read: <a href="http://www.jasonbock.net/jb/News/Item/7c334037d1a9437d9fa6506e2f35eaac" target="_blank">
+If Carpenters Were Hired Like Programmers</a>
 
 	<!-- end content -->
 	<!--todojc
 	<div id="contentSettings" style="display:none;">
-		<?php echo json_encode($settings); ?>
+		<?php //echo json_encode($settings); ?>
 	<div>-->
 					
 <?php if (!$fromAjax) endPage(); ?>
