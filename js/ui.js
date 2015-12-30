@@ -3,7 +3,7 @@ var hotButton = undefined, hotHistory = undefined;
 
 window.onload = function(){
 	//big concept image
-	document.body.style.backgroundImage="url('media/road-dark-gradient-black.jpg')";
+	//document.body.style.backgroundImage="url('media/road-dark-gradient-black.jpg')";
 	
 	//for each image, load the images from predefined image tags
 	$('#galleryscroller div.image').each(function(i,el){
@@ -31,7 +31,7 @@ $('a').click(function(e){
 	e.preventDefault();
 	var href = $(this).attr('href');
 	//if tour button, start tour
-	if (href == "tour.php") return tour.start( {steps:[{target:'#gallery img:first',type:'image',animationTime:1000}]}, this);
+	if (href == "tour.php") alert("Sorry, this feature hasn't been completed yet. I've been busy!");//return tour.start( {steps:[{target:'#gallery img:first',type:'image',animationTime:1000}]}, this);
 	//if already pressed, don't repeat
 	if ($(this).children().hasClass('highlight')) return false;
 	$('.menu .panel').removeClass('highlight');

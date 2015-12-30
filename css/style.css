@@ -1,6 +1,6 @@
 * {font-family: 'Exo 2', sans-serif;font-weight: 200;}
 .sketchFont {font-family: 'Fredericka the Great', cursive;}
-body {color:#eee;background-color:#000;background-size:100% auto;background-repeat: no-repeat;margin:0;}
+body {color:#eee;background-image:url('../media/road-dark-gradient-black.jpg');background-color:#000;background-size:100% auto;background-repeat: no-repeat;margin:0;}
 
 
 header {width: 90%; margin: 25px 5%;padding: 15px 0 50px;text-align: left;color:white;
@@ -80,7 +80,7 @@ footer {height:60px;background-color:#222;padding:10px;}
 	.content {width:90%;margin:10px 5%;}
 }
 @media only screen and (max-width: 640px) {
-	body {background-position-y: 375px;}
+	body {background-image: none;}
 	header div h2 {font-size:1.3em;}
 	header div h3 {font-size:1.1em;}
 
