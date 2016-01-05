@@ -77,7 +77,7 @@ footer {height:60px;background-color:#222;padding:10px;}
 				.panel.pC a.addJames:after{content:' James';}
 				.panel.pC a.callToAction{display:inline-block;}
 
-	.content {width:90%;margin:10px 5%;}
+	.content {width:87%;margin:10px 5%;}
 }
 @media only screen and (max-width: 640px) {
 	body {background-image: none;}

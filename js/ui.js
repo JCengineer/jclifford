@@ -60,7 +60,7 @@ function getContent(href, time){
 			
 			//animate the content into view
 			//debatable whether people like it or not...
-			$('body').animate({scrollTop:$('#contentMain').offset().top-200}, time, function(){
+			$('body').animate({scrollTop:$('#contentMain').offset().top-50}, time, function(){
 				
 			//animate the relevant gallery images into view, nice
 			if ($('div[data-forlink="'+href+'"]').length > 0){

@@ -21,6 +21,7 @@
 						<div class='clearfix'>
 							".file_get_contents('php/menu.php')."
 							<div id='contentMain' class='content'>";
+							// MAKE THIS DIV OVERFLOW-Y AUTO and start scrolling on load content
 	};
 	function endPage(){
 		echo "
