@@ -27,7 +27,7 @@ if (location.hash.length>0){
 	}
 }
 
-$('a').click(function(e){
+$(document).on('click','a',function(e){
 	e.preventDefault();
 	var href = $(this).attr('href');
 	//if tour button, start tour
