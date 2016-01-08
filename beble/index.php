@@ -28,28 +28,30 @@
             <div class="inspace-30 borderedbox">
               <h6 class="heading">Wouldn't it be nice to have the luxury of 3 great rooms in one small space?</h6>
               <p>Smarter use of floor and ceiling space means exactly that. Your bed, couch and table are mutually exclusive. 
-                You never use one while using the other...</p>
+                You never use one while using the other so why not have...</p>
             </div>
           </li>
           <li class="one_quarter">
             <article><a href="#"><img class="btmspace-30" src="images/demo/320x220.png" alt=""></a>
-              <h6 class="heading">Smart bed</h6>
+              <h6 class="heading">a smart bed</h6>
               <p>When a great night's sleep calls, the bed needs no attention. Just tuck in.</p>
             </article>
           </li>
           <li class="one_quarter">
             <article><a href="#"><img class="btmspace-30" src="images/demo/320x220.png" alt=""></a>
-              <h6 class="heading">Smart table</h6>
+              <h6 class="heading">a smart table</h6>
               <p>A dinner party or a home office needs a large clean table quickly!</p>
             </article>
           </li>
           <li class="one_quarter">
             <article><a href="#"><img class="btmspace-30" src="images/demo/320x220.png" alt=""></a>
-              <h6 class="heading">Couch / free space</h6>
-              <p>Combining the headboard and the stools makes a great and comfy couch, or just leave space to breathe.</p>
+              <h6 class="heading">a couch and free space</h6>
+              <p>Clipping the headboard and the stools together make a great and comfy couch, or just leave space to breathe.</p>
             </article>
           </li>
         </ul>
+        <p><a class="btn medium" href="#">Register your interest</a></p>
+
             <!-- / main body -->
         <div class="clear"></div>
       </main>
@@ -74,7 +76,7 @@
         <figure class="one_quarter"><img src="images/demo/320x220.png" alt="">
           <figcaption>
             <p>Fully automated transitions</p>
-            <p>The bed, table and free space can be called upon at the click of a button.</p>
+            <p>The bed, table and free space each can be called upon at the click of a button.</p>
           </figcaption>
         </figure>
         <figure class="one_quarter"><img src="images/demo/320x220.png" alt="">

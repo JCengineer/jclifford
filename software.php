@@ -13,7 +13,7 @@
 	I am an end-to-end developer, meaning I am involved in all aspects of web development from web-design to servers and databases.
 	<br>
 	<br>
-	<strong>Some buzzwords:</strong><br>
+	<h2>Some buzzwords:</h2>
 	<span class="secondary">(glossary of things I have experience using)</span>
 	<br>
 	<br>
@@ -54,6 +54,7 @@
 	<br>
 	
 	<span class="secondary">with a focus on</span>
+	<li>Mobile-ready responsive web design</li>
 	<li>Object-Oriented Programming</li>
 	<li>Relational databases</li>
 	<li>High user engagement</li>
