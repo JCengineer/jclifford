@@ -11,6 +11,7 @@
 	Electronics is something I've been more than interested in since I was a kid.
 	I was starting projects ever since breaking the tape player in the kitchen radio with a screwdriver when I was three or four.
 	I think that my ability to break things and figure out fixes when I was young guided me to be an engineer.
+	<br><br>
 	Since then, I've been coming up with ideas and concepts in the hardware technology space.
 	I've built some of them, so have a look below to see them.
 	<br><br>
@@ -19,6 +20,7 @@
 	However, the insight I've gained into the principles of electronics means
 	I am able to adapt to new projects, work on product development and prototyping 
 	<!--rephrase-->without the need for a lot of training.
+	<br><br>
 	I have used a variety of technologies in electronics development.
 	These can be useful for designing, testing and creating electronic and computer hardware products.
 	These include:

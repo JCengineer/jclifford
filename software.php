@@ -14,12 +14,12 @@
 	<br>
 	<br>
 	<h2>Some buzzwords:</h2>
-	<span class="secondary">(glossary of things I have experience using)</span>
+	<span class="secondary">(a glossary of things I have experience using)</span>
 	<br>
 	<br>
 
 	<b>HTML5</b><br>
-	<span class="secondary">a basic markup language for defining information on a webpage</span>
+	<span class="secondary">The modern version of the basic markup language for defining information on a webpage</span>
 	<br>
 	<br>
 

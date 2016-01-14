@@ -1,6 +1,6 @@
 <footer>
 	<div class="links">
-		<a href="/"><h2>JClifford</h2></a>|
+		<a href=""><h2>JClifford</h2></a>|
 		<a href="contact.php"><h3>Contact</h3></a>
 	</div>
 

@@ -1,8 +1,10 @@
 <head>
 	<meta charset="utf-8">
 	<title>James Clifford - Freelance Engineer &amp; Developer</title>
+  	<meta name="viewport" content="width=device-width, height=device-height,  initial-scale=1.0;"/>
+
 	
-	<link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
+	<!--link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'-->
 	<link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
 	<link href="lib/magnific-popup/mp.css" rel="stylesheet" type="text/css">
 	<link href="css/style.css" rel="stylesheet" type="text/css">

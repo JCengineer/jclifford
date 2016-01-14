@@ -23,8 +23,8 @@ if (location.hash.length>0){
 	var href = location.hash.substring(1);
 	if ( $('a[href="'+href+'"]').length > 0 ){
 		$('a[href="'+href+'"]').children().addClass('highlight');
-		getContent(href);
 	}
+	getContent(href);
 }
 
 $(document).on('click','a',function(e){

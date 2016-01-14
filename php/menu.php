@@ -1,4 +1,9 @@
 <div class="menu">
+	<a href="">
+		<div class="panel pL">
+			<h3>Home</h3>
+		</div>
+	</a>
 	<a href="software.php">
 		<div class="panel pL">
 			<h3>Software</h3>
