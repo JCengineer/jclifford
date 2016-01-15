@@ -27,21 +27,21 @@ largely due to my experience in Computer and Electronic Engineering and building
 
 <a href="cases/customking.php"><img src="media/clients/customking.svg" alt="CustomKing"></a>
 <li class="secondary">T-Shirt designer app with live preview within a web browser.</li>
-<li class="secondary">Included a crowd-funding service to allow individual pre-payment of group clothing orders prior to manufacturing by CustomKing. <a href="cases/loveandrobots.php">Read more...</a></li>
+<li class="secondary">Included a crowd-funding service to allow individual pre-payment of group clothing orders prior to manufacturing by CustomKing. <a href="cases/customking.php">Read more...</a></li>
 
-<a href="cases/visilit.php"><img src="media/clients/gigstarter.png" alt="GigStarter"></a>
+<a href="cases/gigstarter.php"><img src="media/clients/gigstarter.png" alt="GigStarter"></a>
 <li class="secondary">Crowd Funding and event tour prediction app for GigStarter.</li>
-<li class="secondary">Included a viral networking tool to empower an audience to earn rewards for each ticket they sold to their network. <a href="cases/loveandrobots.php">Read more...</a></li>
+<li class="secondary">Included a viral networking tool to empower an audience to earn rewards for each ticket they sold to their network. <a href="cases/gigstarter.php">Read more...</a></li>
 
 <a href="cases/visilit.php"><img src="media/clients/visilit.png" alt="Visilit"></a>
 <li class="secondary">3D event planner/designer with live preview to enable event professionals to preview and plan in a virtual venue.</li>
-<li class="secondary">Included a collaboration system where an international team could communicate and preview eachother's work in venue together whilst being miles apart. <a href="cases/gigstarter.php">Read more...</a></li>
+<li class="secondary">Included a collaboration system where an international team could communicate and preview eachother's work in venue together whilst being miles apart. <a href="cases/visilit.php">Read more...</a></li>
 
 <br><br>
 My experience with start ups and other businesses gives me insight into how technology can be effectively implemented.
-<br><br>
+<br class="ifSmall"><br class="ifSmall">
 For a lot of my clients, this broad skill set allows me to approach work from an end to end perspective and solve problems from all angles.
-<br><br>
+<br class="ifSmall"><br class="ifSmall">
 Fixing things is a passion of mine.
 As an engineer, I have the opportunity to fix complex and challenging problems on a daily basis.
 <br><br>

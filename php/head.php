@@ -1,7 +1,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>James Clifford - Freelance Engineer &amp; Developer</title>
-  	<meta name="viewport" content="width=device-width, height=device-height,  initial-scale=1.0;"/>
+  	<meta name="viewport" content="width=device-width, height=device-height,  initial-scale=1.0"/>
 
 	
 	<!--link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'-->

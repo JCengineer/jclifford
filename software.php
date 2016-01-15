@@ -18,10 +18,6 @@
 	<br>
 	<br>
 
-	<b>HTML5</b><br>
-	<span class="secondary">The modern version of the basic markup language for defining information on a webpage</span>
-	<br>
-	<br>
 
 	<b>Javascript</b><br>
 	<span class="secondary">client-side logic (how your website makes decisions within your web browser)</span>
@@ -31,6 +27,9 @@
 	<li>Pusher - a WebSockets framework for real-time communication</li>
 	<br>
 
+	<b>HTML5</b><br>
+	<span class="secondary">The modern version of the markup language for defining information on a webpage</span>
+	<br>
 	<b>CSS</b><br>
 	<span class="secondary">how the look and feel of the website is defined</span>
 	<li>SASS - a clever way to speed up and organise CSS</li>

@@ -44,32 +44,42 @@ $(document).on('click','a',function(e){
 
 function getContent(href, time){
 	if (!time) time = time;
+	var $contentMain = $('#contentMain');
 	//there's an option to do the opacity animation here and 
 	//have the content loading in parallel to improve performance
-	//more awkward if the request is unsuccessful so maybe later..
+	$contentMain.animate({opacity:0},time,function(){
+		$contentMain.animate({opacity:1},time);
+		$contentMain.html('<div style="text-align:center;margin-top:25px;"><img style="width:70px;" src="media/loading.gif" alt="loading..." /></div>');
+	});
+	
 
 	//get the content from the server
 	$.post(href,{}).done(function(result){
 
 		if (result=="") return false;
-					
-		$('#contentMain').animate({opacity:0},time,function(){
+		
+		//$contentMain.animate({opacity:0},time,function(){
 			//set content to new html
-			$('#contentMain').html(result);
-			$('#contentMain').animate({opacity:1},time);
+			$contentMain.stop().animate({opacity:0},time,function(){
+				$contentMain.html(
+					result + 
+					'<div style="text-align:center;margin-top:25px;"><a href="contact.php" class="callToAction addJames">Contact James</a></div>'
+				);
+				$contentMain.animate({opacity:1},time);
+			});
 			
 			//animate the content into view
 			//debatable whether people like it or not...
-			$('body').animate({scrollTop:$('#contentMain').offset().top-50}, time, function(){
+			$('body').animate({scrollTop:$contentMain.offset().top-50}, time, function(){
 				
 			//animate the relevant gallery images into view, nice
 			if ($('div[data-forlink="'+href+'"]').length > 0){
-				var offsetY = ($('div[data-forlink="'+href+'"]').offset().left - $('#galleryscroller').children().first().offset().left - 60);
+				var offsetY = ($('div[data-forlink="'+href+'"]').offset().left - $('#galleryscroller').children().first().offset().left - 100);
 				$('#galleryscroller').animate({scrollLeft:offsetY}, time);
 			}else $('#galleryscroller').animate({scrollLeft:0}, time);
 			});
 			
-		});
+		//});
 
 		//track page urls, for window.onhashchange later
 		//except when history calls this itself

@@ -39,6 +39,7 @@ h1 {font-weight: bold;}
 	.content img {width: 60%;padding:20px 20%;}
 	.content .secondary{color:#bfbfbf;}
 	.content b{text-decoration: underline;}
+	.content .ifSmall {display:none;}
 #gallery {clear:both;width:100%;height:150px;overflow-x:hidden; overflow-y:hidden; position:relative;border: 3px solid #bfbfbf;border-left: none;border-right: none;border-radius: 50px;margin: 20px 0;}
     #gallery #galleryscroller{position:relative;overflow-x:auto; overflow-y:hidden; white-space: nowrap;background-color: #000000;height:125%;position:relative;clear:both;}
       #galleryscroller div{background-size:cover;width:150px;height:150px;display:inline-block;position: relative;cursor: -webkit-zoom-in; cursor: -moz-zoom-in;background-repeat:no-repeat;background-position:center center;}
@@ -87,6 +88,7 @@ footer {height:60px;background-color:#222;padding:10px;}
 				.panel.pC a.callToAction{display:inline-block;}
 
 	.content {width:84%;margin:10px 5%;}
+	.ifSmall {display:block;}
 }
 @media only screen and (max-width: 640px) {
 	header div h2 {font-size:1.7em;}

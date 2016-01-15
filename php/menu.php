@@ -26,12 +26,12 @@
 	</a>
 	<a href="build.php">
 		<div class="panel pL">
-			<h3>Building</h3>
+			<h3>Projects</h3>
 		</div>
 	</a>
-	<div class="panel pC">
+	<!--div class="panel pC">
 		<h3>Like what you see?</h3><br>
 		<a href="contact.php" class="callToAction addJames">Contact</a>
 		<a href="" class="callToAction secondary">Home</a>
-	</div>
+	</div-->
 </div>
