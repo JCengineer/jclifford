@@ -28,8 +28,11 @@ if (location.hash.length>0){
 }
 
 $(document).on('click','a',function(e){
-	e.preventDefault();
 	var href = $(this).attr('href');
+	var blank = $(this).attr('target') == "_blank";
+	console.log("_blank");
+	if (blank) return true;
+	e.preventDefault();
 	//if tour button, start tour
 	if (href == "tour.php") alert("Sorry, this feature hasn't been completed yet. I've been busy!");//return tour.start( {steps:[{target:'#gallery img:first',type:'image',animationTime:1000}]}, this);
 	//if already pressed, don't repeat
