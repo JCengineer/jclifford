@@ -81,8 +81,9 @@ footer {height:60px;background-color:#222;padding:10px;}
 		header img {display: none;}
 		header div {width:90%;margin:0 5%;text-align: center;}
 
-	.menu {width: 90%;margin:0 5%;overflow:hidden;clear:both;}
-		.menu .panel {width:38%;float:left;margin:5px 5%;}
+	.menu {width: 90%;margin:0 5%;overflow:hidden;clear:both;padding:15px 0px;}
+		.menu .panel {width:47%;float:left;margin:5px 5% 5px 0%;}
+		.menu a:nth-child(2n+2) .panel{margin-right:0px;}
 			.menu .panel.pC {width:84%;text-align: center}
 				.panel.pC a.addJames:after{content:' James';}
 				.panel.pC a.callToAction{display:inline-block;}
