@@ -275,12 +275,13 @@ img.mfp-img {
     margin: 0; }
 
 .mfp-bottom-bar {
-  margin-top: -36px;
+  /*margin-top: -36px;*/
   position: absolute;
-  top: 100%;
+  bottom: 0%;
   left: 0;
   width: 100%;
-  cursor: auto; }
+  cursor: auto;
+  background-color:rgba(0,0,0,0.5); }
 
 .mfp-title {
   text-align: left;

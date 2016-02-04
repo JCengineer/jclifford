@@ -1,10 +1,12 @@
 * {font-family: 'Exo 2', sans-serif;font-weight: 200;}
 .sketchFont {font-family: 'Fredericka the Great', cursive;}
-body {color:#eee;background-color:#000;background-size:100% auto;background-repeat: no-repeat;margin:0;}
+body {color:#eee;background-image:url('../media/road-dark-gradient-black.jpg');background-color:#000;background-size:100% auto;background-repeat: no-repeat;margin:0;}
+a {color:lightskyblue;}
+a:visited{color:cornflowerblue;}
 
 
 header {width: 90%; margin: 25px 5%;padding: 15px 0 50px;text-align: left;color:white;
-		background:rgba(13, 5, 21, 0.6) url("../media/grill.png") no-repeat center top;background-size:100% auto;
+		background:rgba(13, 5, 21, 0.6) url("../media/grill.png") no-repeat center top;background-size:cover;
 		border-radius: 10px;border:5px solid #111;}
 header div {margin-left: 40px; float:left;z-index:2;width:calc(100% - 300px);}
 header div h2 {font-weight: 400;}
@@ -12,8 +14,8 @@ header img{padding-right: 15px; float:right; width:200px;position: relative;marg
 
 h1 {font-weight: bold;}
 .clearfix {clear:both;overflow: hidden;}
-.callToAction {border-radius: 15px;background-color: #2176D8;padding:15px;margin: 15px;text-decoration:none;color:white;}
-.callToAction.secondary {border-radius: 10px;background-color: #275D9B;padding:10px;margin: 15px;text-decoration:none;color:white;}
+.callToAction {border-radius: 15px;background-color: #2176D8;padding:15px;margin: 15px 0;text-decoration:none;color:white;}
+.callToAction.secondary {background-color: #17549B;padding:10px;margin: 15px;text-decoration:none;color:white;}
 .highlight {background-color:rgba(255,255,255,.6)!important;color:#000!important;}
 
 
@@ -23,27 +25,32 @@ h1 {font-weight: bold;}
 	.menu a{text-decoration: none;}
 	.menu a .highlight{text-decoration: none;cursor:default;}
 	.menu a.callToAction{margin:0 5px;}
+	.menu a.callToAction.secondary{margin:5px 15px;}
 .panel {background-color:rgba(0,0,0,.4);color:white;border:3px solid gray;width: 100%; margin:25px 0 25px 0;}
 	.panel.pL {border-right:none;border-bottom:none;border-bottom-right-radius:25px;border-bottom-left-radius:10px;border-top-left-radius:10px;}
 	.panel.pC {border-left:none;border-right:none;}
 
 
 
-.content {width: 64%;padding:3%;float:right;margin: 28px 5% 25px 1%;overflow: hidden; text-align: center;background:rgba(0,0,0,.4);}
+.content {width: 64%;padding:3%;float:right;margin: 28px 5% 25px 1%;overflow: hidden; text-align: left;background:rgba(0,0,0,.4);}
 	.content p{font-size: 1.3em;}
 	.content span.note{background:rgba(64,64,64,.3);margin:1% 0;padding:1% 5%;display: inline-block;width: 92%;font-size: .9em;}
 	.content .alignRight{text-align: right;}
-#gallery {clear:both;width:100%;height:150px;overflow-x:hidden; overflow-y:hidden; position:relative;border: 3px solid grey;border-left: none;border-right: none;border-radius: 50px;margin: 20px 0;}
+	.content img {width: 60%;padding:20px 20%;}
+	.content .secondary{color:#bfbfbf;}
+	.content b{text-decoration: underline;}
+	.content .ifSmall {display:none;}
+#gallery {clear:both;width:100%;height:150px;overflow-x:hidden; overflow-y:hidden; position:relative;border: 3px solid #bfbfbf;border-left: none;border-right: none;border-radius: 50px;margin: 20px 0;}
     #gallery #galleryscroller{position:relative;overflow-x:auto; overflow-y:hidden; white-space: nowrap;background-color: #000000;height:125%;position:relative;clear:both;}
-      #galleryscroller div{width:150px;height:150px;display:inline-block;position: relative;cursor: -webkit-zoom-in; cursor: -moz-zoom-in;background-repeat:no-repeat;background-position:center center;}
+      #galleryscroller div{background-size:cover;width:150px;height:150px;display:inline-block;position: relative;cursor: -webkit-zoom-in; cursor: -moz-zoom-in;background-repeat:no-repeat;background-position:center center;}
       #galleryscroller div.category{-webkit-transform:rotate(-90deg);width:25px;height:30px;cursor:default;top:-50px;display:inline-block;position: relative;border-left:3px solid gray;padding-left:5px;}
 	#gallery span.gradient{width:125px;height:100%;float:right;z-index:5;position: absolute;top: 0px;cursor:pointer;}
-		#gallery span.gradient:after{content: '+';position: relative;top: 55px;font-size: 2em;font-weight: 600;color: grey;}
+		#gallery span.gradient:after{content: '+';position: relative;top: 55px;font-size: 2em;font-weight: 600;color: #bfbfbf;}
 	#gallery span.gradient.left{display:none; background: linear-gradient(to left, rgba(0,0,0,0) , black);left: 0px;}
 		#gallery span.gradient.left:after{left: 25px;}
 	#gallery span.gradient.right{ background: linear-gradient(to right, rgba(0,0,0,0) , black);right:0px;}
 		#gallery span.gradient.right:after{left: 75px;}
-#twitterWidget {float:right;margin:25px 5% 0 0;}
+#twitterWidget {margin:25px auto;max-width: 520px;}
 .horizontalList {border:2px solid #333;border-radius: 20px;margin:25px 5%;width: calc(90% - 350px); text-align: center;float:left;}
 	.horizontalList h3{margin-bottom:0;}
 	.horizontalList p{margin-top:0;}
@@ -52,38 +59,43 @@ h1 {font-weight: bold;}
 footer {height:60px;background-color:#222;padding:10px;}
 	footer .links{float:left;}
 	footer .links a{display:inline-block;color:white;text-decoration: none;margin:0px 25px;}
-	footer .buttons{float:right;padding:10px;}
+	footer .buttons{float:right;padding:15px;}
 
 
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1300px) {
 	
 	.panel.pC a{display:inline-block;}
+	.panel.pC .secondary{margin-top:5px;}
 }
 @media only screen and (max-width: 1050px) {
 	.panel.pL{width:100%;}
 	.panel.pC{width:90%;margin:25px 5% 25px;}
 }
 @media only screen and (max-width: 850px) {
+	body {    background-size: auto 100vh;background-position: center 0;}
+	.panel.pC {display:none}
+	.panel.pC .callToAction{margin-bottom:15px;}
 	
 	header {width:100%;margin:0;border-radius:0px;border-top:none;border-left:none;border-right:none;}
 		header img {display: none;}
 		header div {width:90%;margin:0 5%;text-align: center;}
 
-	.menu {width: 95%;margin:10px 0 0 3%;overflow:hidden;clear:both;}
-		.menu .panel {width:15%;float:left;margin:5px 2%;}
-			.menu .panel.pC {width:93%;text-align: center;}
+	.menu {width: 90%;margin:0 5%;overflow:hidden;clear:both;padding:15px 0px;}
+		.menu .panel {width:47%;float:left;margin:5px 5% 5px 0%;}
+		.menu a:nth-child(2n+2) .panel{margin-right:0px;}
+			.menu .panel.pC {width:84%;text-align: center}
 				.panel.pC a.addJames:after{content:' James';}
 				.panel.pC a.callToAction{display:inline-block;}
 
-	.content {width:90%;margin:10px 5%;}
+	.content {width:84%;margin:10px 5%;}
+	.ifSmall {display:block;}
 }
 @media only screen and (max-width: 640px) {
-	body {background-position-y: 375px;}
-	header div h2 {font-size:1.3em;}
-	header div h3 {font-size:1.1em;}
-
-	.menu {width: 90%;margin:0 5%;overflow:hidden;clear:both;}
-		.menu .panel {width:38%;float:left;margin:5px 5%;}
-			.menu .panel.pC {width:87%;text-align: center}
+	header div h2 {font-size:1.7em;}
+	header div h3 {font-size:1.5em;}
+	.content {font-size:1.3em;}
+	footer {height: 130px;}
+	footer .buttons{float:left;padding:15px;}
+	#twitterWidget {width: 70%;}
 }

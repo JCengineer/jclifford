@@ -5,14 +5,15 @@
 	<meta name="keywords" content="Web development, startups, technical officer, software engineer">
 	<meta name="author" content="James Clifford 2015">
 	<title>James Clifford - Freelance Engineer &amp; Developer</title>
-	
+  	<meta name="viewport" content="width=device-width, height=device-height,  initial-scale=1.0"/>
+
 	<link href='media/favicon.ico' rel='icon' type='img/ico'>
 
-	<link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
+	<!--link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'-->
 	<link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
 	<link href="lib/magnific-popup/mp.css" rel="stylesheet" type="text/css">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
-
+	<link rel="icon" type="image/png" href="media/favicon.ico">
 	<!-- javascript in footer.php -->
 
 	<!--google analytics-->

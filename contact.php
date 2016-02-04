@@ -8,7 +8,8 @@
 <?php if (!$fromAjax) startPage(); ?>
 
 <!-- content -->
-Please fill in the form below to get in touch!<br>
+Please fill in the form below to get in touch!
+<br><br>
 <!-- Do not change the code! -->
 <a id="foxyform_embed_link_613600" href="http://www.foxyform.com/">foxyform</a>
 <script type="text/javascript">
