@@ -37,7 +37,7 @@
 	<br>
 
 	<b>Ruby</b><br>
-	<span class="secondary">server-side logic (how your webbsite's information is served and how it can recall things from a database)</span>
+	<span class="secondary">server-side logic (how your website's information is served and how it can recall things from a database)</span>
 	<li>Ruby on Rails - an <span class="hasTitle" title="Model-View-Controller Design Pattern">MVC</span> server framework for Rails</li>
 	<br>
 

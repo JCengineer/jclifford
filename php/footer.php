@@ -22,4 +22,5 @@
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="lib/magnific-popup/mp.js"></script>
 <script src="js/ui.js"></script>
+<script src="js/history.js"></script>
 <script src="js/tour.js"></script>

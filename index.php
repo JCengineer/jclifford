@@ -17,7 +17,7 @@ My name is James!
 I am based in Dublin, Ireland where I work with some fantastic clients to assist them in developing their businesses.
 <br><br>
 The products and services I help to develop are usually technology based,
-largely due to my experience in Computer and Electronic Engineering and building interactive web applications.
+largely due to my experience in computer and electronic engineering and building interactive web applications.
 <br><br>
 <h3>Clients:</h3>
 <a href="cases/loveandrobots.php"><img src="media/clients/lar-no-heart.svg" alt="Love and Robots" style="background:#f7f7f7;"></a>
@@ -45,7 +45,7 @@ For a lot of my clients, this broad skill set allows me to approach work from an
 Fixing things is a passion of mine.
 As an engineer, I have the opportunity to fix complex and challenging problems on a daily basis.
 <br><br>
-I hope you enjoy this website. Please <a href="contact.php">get in contact</a> if you have something to be fixed!.
+I hope you enjoy this website. Please <a href="contact.php">get in contact</a> if you have something that needs fixing!
 <br><br>Thanks,<br>
 James
 <!-- end content -->
