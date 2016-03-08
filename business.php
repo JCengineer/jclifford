@@ -8,7 +8,8 @@
 <?php if (!$fromAjax) startPage(); ?>
 
 <!-- content -->
-Growing up in a guesthouse owned by my folks who worked around the clock to keep their customers happy was great experience.
+Growing up in a guesthouse owned by my folks, who worked around the clock to keep their customers happy, was great experience.
+<a href="http://andorrabb.com" target="_blank"><img src="media/andorra.jpg" alt="Andorra B&B"></a>
 It taught me that hard work pays off and that reputation means a lot.
 It has also shown me what an integral part technology plays in most businesses these days.
 <br><br>
@@ -24,6 +25,7 @@ also helped me to learn the do's and don'ts of business, working with clients an
 That's tough and usually thankless work, especially in Ireland where the industry is small and everyone knows each other.
 To get hired is a miracle.. <!--until you realise that you're dependent on a very unforgiving and 
 undependable industry of bars, pubs, clubs and festivals in fields!-->
+<img src="media/gallery/crowd.jpg" alt="Events" />
 I enjoy the work I do in this industry though and it's a great way to meet some amazing people.
 <br><br>
 This entrepreneurial way of life led me to found my own start up company – VisiLit.
