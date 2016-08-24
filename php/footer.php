@@ -1,6 +1,6 @@
 <footer>
 	<div class="links">
-		<a href=""><h2>JClifford</h2></a>|
+		<a href=""><h2>JClifford</h2></a>//
 		<a href="contact.php"><h3>Contact</h3></a>
 	</div>
 
@@ -22,4 +22,5 @@
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="lib/magnific-popup/mp.js"></script>
 <script src="js/ui.js"></script>
+<script src="js/history.js"></script>
 <script src="js/tour.js"></script>

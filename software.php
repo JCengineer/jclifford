@@ -11,6 +11,7 @@
 	I build interactive websites and web applications.
 	<br><br>
 	I am an end-to-end developer, meaning I am involved in all aspects of web development from web-design to servers and databases.
+	I specialise in 3D and media processing applications. For an example, see my <a href="/examples/3dhead.html" target="_blank">head in 3D</a>!
 	<br>
 	<br>
 	<h2>Some buzzwords:</h2>
@@ -37,7 +38,7 @@
 	<br>
 
 	<b>Ruby</b><br>
-	<span class="secondary">server-side logic (how your webbsite's information is served and how it can recall things from a database)</span>
+	<span class="secondary">server-side logic (how your website's information is served and how it can recall things from a database)</span>
 	<li>Ruby on Rails - an <span class="hasTitle" title="Model-View-Controller Design Pattern">MVC</span> server framework for Rails</li>
 	<br>
 
