@@ -55,7 +55,7 @@ $('#gallery span.gradient').click(function(e,ui){
 });
 
 
-window.onSetContent = function(){
+window.onSetContent = function(href){
 	var time=1000, $contentMain = $('#contentMain');
 	$('body').animate({scrollTop:$contentMain.offset().top-50}, time, function(){
 		//animate the relevant gallery images into view, nice
